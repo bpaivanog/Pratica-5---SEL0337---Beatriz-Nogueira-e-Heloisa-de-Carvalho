@@ -1,0 +1,42 @@
+1  ls
+2  cd /home/sel/4060
+3  mkdir -p /home/sel/4060/pratica5
+4  cd /home/sel/4060/pratica5
+5  nano blink.sh
+6  nano blinkoff.sh
+7  nano blink_python.py
+8  chmod +x blink.sh
+9  chmod +x blinkoff.sh
+10 chmod +x blink_python.py
+11 nano blinkLED.service
+12 sudo cp blinkLED.service /lib/systemd/system/
+13 sudo systemctl daemon-reload
+14 sudo systemctl start blinkLED
+15 sudo systemctl status blinkLED
+16 sudo systemctl stop blinkLED
+17 sudo systemctl enable blinkLED
+18 nano blink_python.service
+19 sudo cp blink_python.service /lib/systemd/system/
+20 sudo systemctl daemon-reload
+21 sudo systemctl start blink_python
+22 sudo systemctl status blink_python
+23 sudo systemctl stop blink_python
+24 sudo systemctl enable blink_python
+25 sudo apt update
+26 sudo apt install git -y
+27 git --version
+28 git config --global user.name "Beatriz"
+29 git config --global user.email "beatriz.paiva@usp.br"
+30 git config --list
+31 cd /home/sel/4060/pratica5
+32 nano .gitignore
+33 git init
+34 git add .
+35 git status
+36 git commit -m "Initial commit: Prática 5"
+37 git remote add origin https://github.com/bpaivanog/Pratica-5-Projetos-Sistemas-Embarcados.git
+38 git branch -M main
+39 git push -u origin main
+42 git log > historico_git.txt
+43 ls
+44 history

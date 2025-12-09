@@ -1,0 +1,41 @@
+commit c4c72e5c9810421d7387cfe9a2ce85f5a92dc920 (HEAD -> main, origin/main)
+Author: Beatriz <beatriz.paiva@usp.br>
+Date:   Mon Dec 8 17:03:41 2025 +0000
+
+    Adiciona historico_git.txt
+
+commit e9c45b6703e1570d2ae53f4c13b679dbe894e1f4
+Author: Beatriz <beatriz.paiva@usp.br>
+Date:   Mon Dec 8 17:01:12 2025 +0000
+
+    Adiciona arquivos de serviço: blink_python.service e blinkLED.service
+
+commit d7a1c542c8073c58fa26a23fb1ce8e47f7064f28
+Author: Beatriz <beatriz.paiva@usp.br>
+Date:   Mon Dec 8 16:58:47 2025 +0000
+
+    Adiciona script Python blink_python.py (GPIO 18)
+
+commit 92fa21c6ca9d94b1fbe8e6508335b7e55d8a4dc1
+Author: Beatriz <beatriz.paiva@usp.br>
+Date:   Mon Dec 8 16:55:22 2025 +0000
+
+    Adiciona script blinkoff.sh (desliga LED via sysfs)
+
+commit 5e41a6b7f64fd895ac8b4f7ef50d7d98fbdd093e
+Author: Beatriz <beatriz.paiva@usp.br>
+Date:   Mon Dec 8 16:52:10 2025 +0000
+
+    Adiciona script blink.sh (pisca LED pelo sysfs GPIO 18)
+
+commit 49c66998cb2a1f837bca80eb8b29ea812b4df9d4
+Author: Beatriz <beatriz.paiva@usp.br>
+Date:   Mon Dec 8 16:48:05 2025 +0000
+
+    Adiciona .gitignore e estrutura inicial do diretório da prática
+
+commit 6ab17e61c8e42f4c27c4f4bd0f638b3734a8c1c4
+Author: Beatriz <beatriz.paiva@usp.br>
+Date:   Mon Dec 8 16:44:33 2025 +0000
+
+    Initial commit: Prática 5 — criação da pasta e preparação dos arquivos iniciais

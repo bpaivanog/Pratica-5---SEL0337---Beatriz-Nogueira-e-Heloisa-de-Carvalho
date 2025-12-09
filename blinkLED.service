@@ -1,0 +1,13 @@
+[Unit] 
+Description=Serviço de Blink LED
+After=multi-user.target 
+
+[Service] 
+Type=simple 
+ExecStart=/home/sel/4060/pratica5/blink.sh 
+ExecStop=/home/sel/4060/pratica5/blinkoff.sh 
+Restart=on-failure 
+User=sel 
+
+[Install] 
+WantedBy=multi-user.target
